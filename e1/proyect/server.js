@@ -1,16 +1,10 @@
 const http = require("http");
 const fs = require("fs");
-
 const server = http.createServer((request, response) => {
-    let path;
+    const path = "";
+    const path_splitted = path.split(".");
+    const extension = path_splitted.pop();
 
-    if (request.url === "/") {
-        path = "html/page1.html";
-    } else {
-        path = `html${request.url}`;
-    }
-
-    const extension = request.url; //conseguir extension del fichero que se pide
     if (extension !== "") {
         let ruta;
         let contentType;
@@ -20,7 +14,8 @@ const server = http.createServer((request, response) => {
                 contentType = "text/javascript";
                 break;
             case ".css":
-                ruta = "./public/css" + request.url;
+                ruta =
+                    "../node_modules/bootstrap/dist/css/bootstrap.min.css" + request.url;
                 contentType = "text/css";
                 break;
             case ".html":
@@ -33,13 +28,12 @@ const server = http.createServer((request, response) => {
         }
     }
 
-    fs.readFile(path, (error, data) => {
+    fs.readFile("html/index.html", (error, data) => {
         if (error) {
-            fs.readFile("html/index.html", (error, data) => {
-                response.writeHead(404);
-                response.write("<h1>pagina no encontrada</h1>");
-                response.end();
-            });
+            console.error(error.stack);
+            response.writeHead(404);
+            response.write("<h1>Página no encontrada</h1>");
+            response.end();
         } else {
             response.writeHead(200, { "Content-Type": "text/html" });
             response.write(data);
