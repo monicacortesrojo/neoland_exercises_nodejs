@@ -1,34 +1,32 @@
 const http = require("http");
 const fs = require("fs");
 const server = http.createServer((request, response) => {
-    const path = "";
-    const path_splitted = path.split(".");
-    const extension = path_splitted.pop();
+    let contentType;
+    let path;
 
-    if (extension !== "") {
-        let ruta;
-        let contentType;
-        switch (extension) {
-            case ".js":
-                ruta = "./public/js" + request.url;
-                contentType = "text/javascript";
-                break;
-            case ".css":
-                ruta =
-                    "../node_modules/bootstrap/dist/css/bootstrap.min.css" + request.url;
-                contentType = "text/css";
-                break;
-            case ".html":
-                ruta = "./public/html" + request.url;
-                contentType = "text/html";
-                break;
-            default:
-                ruta = "";
-                contentType = "";
-        }
+    const PATH_INDEX = "./public/html/index.html";
+
+    const extension = request.url.split(".")[1];
+
+    switch (extension) {
+        case "html":
+            contentType = "text/html";
+            path = `./public/html${request.url}`;
+            break;
+        case "css":
+            contentType = "text/css";
+            path = `./public/css${request.url}`;
+            break;
+        case "js":
+            contentType = "text/javascript";
+            path = `./public/js${request.url}`;
+            break;
+        default:
+            path = PATH_INDEX;
+            contentType = "text/html";
     }
 
-    fs.readFile("html/index.html", (error, data) => {
+    fs.readFile("./public/html/index.html", (error, data) => {
         if (error) {
             console.error(error.stack);
             response.writeHead(404);
