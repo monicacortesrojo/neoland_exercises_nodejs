@@ -1,0 +1,62 @@
+nav {
+    width: 100%;
+    height: 107;
+    left: 0px;
+    top: 34px;
+    background-color: #f8f8f8;
+}
+
+.sup-nav {
+    position: absolute;
+    width: 1440px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    background: #ee565b;
+}
+
+.texto-nav {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.logo {
+    position: absolute;
+    width: 210px;
+    left: 62px;
+    top: 62px;
+}
+
+a {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 644px;
+    top: 78px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333c4e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.online {
+    position: absolute;
+    width: 146px;
+    height: 43px;
+    left: 1046px;
+    top: 66px;
+}
+
+.contactar {
+    position: absolute;
+    width: 146px;
+    height: 43px;
+    left: 1218px;
+    top: 66px;
+}

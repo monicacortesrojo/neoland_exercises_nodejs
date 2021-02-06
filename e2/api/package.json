@@ -1,0 +1,15 @@
+{
+  "name": "api-cursos",
+  "version": "1.0.0",
+  "description": "Un API de cursos de Neoland",
+  "main": "api.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mónica Cortés",
+  "license": "ISC"
+}

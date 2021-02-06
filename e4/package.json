@@ -1,0 +1,14 @@
+{
+  "name": "api-films",
+  "version": "1.0.0",
+  "description": "Un API de películas",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mónica Cortés",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

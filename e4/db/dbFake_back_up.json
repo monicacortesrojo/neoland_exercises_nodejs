@@ -1,0 +1,71 @@
+[{
+        "id": 1,
+        "title": "Ola de crímenes",
+        "director": "Gracia Querejeta",
+        "genre": "Comedia",
+        "year": "2018"
+    },
+    {
+        "id": 2,
+        "title": "El dictador",
+        "director": "Larry Charles",
+        "genre": "Comedia",
+        "year": "2012"
+    },
+    {
+        "id": 3,
+        "title": "El diario de Bridget Jones",
+        "director": "Sharon Maguire",
+        "genre": "Comedia",
+        "year": "2001"
+    },
+    {
+        "id": 4,
+        "title": "The Holiday",
+        "director": "Nancy Meyers",
+        "genre": "Romántica",
+        "year": "2006"
+    },
+    {
+        "id": 5,
+        "title": "Call me by your name",
+        "director": "Luca Guadagnino",
+        "genre": "Romántica",
+        "year": "2017"
+    },
+    {
+        "id": 6,
+        "title": "Come, reza, ama",
+        "director": "Ryan Murphy",
+        "genre": "Romántica",
+        "year": "2010"
+    },
+    {
+        "id": 7,
+        "title": "Contratiempo",
+        "director": "Oriol Paulo",
+        "genre": "Thriller",
+        "year": "2017"
+    },
+    {
+        "id": 8,
+        "title": "El Hoyo",
+        "director": "Galder Gaztelu-Urrutia",
+        "genre": "Thriller",
+        "year": "2020"
+    },
+    {
+        "id": 9,
+        "title": "American Psycho",
+        "director": "Mary Harron",
+        "genre": "Thriller",
+        "year": "2000"
+    },
+    {
+        "id": 10,
+        "title": "Hogar",
+        "director": "David Pastor y Àlex Pastor",
+        "genre": "Thriller",
+        "year": "2020"
+    }
+]
