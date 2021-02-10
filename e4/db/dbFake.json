@@ -3,69 +3,121 @@
         "title": "Ola de crímenes",
         "director": "Gracia Querejeta",
         "genre": "Comedia",
-        "year": "2018"
+        "year": "2018",
+        "actors": [
+            { "id": 1, "name": "Maribel Verdú" },
+            { "id": 2, "name": "Miguel Bernardeu" },
+            { "id": 3, "name": "Juana Acosta" }
+        ]
     },
     {
         "id": 2,
         "title": "El dictador",
         "director": "Larry Charles",
         "genre": "Comedia",
-        "year": "2012"
+        "year": "2012",
+        "actors": [
+            { "id": 1, "name": "Sacha Baron Cohen" },
+            { "id": 2, "name": "Anna Faris" },
+            { "id": 3, "name": "Ben Kungsley" }
+        ]
     },
     {
         "id": 3,
         "title": "El diario de Bridget Jones",
         "director": "Sharon Maguire",
         "genre": "Comedia",
-        "year": "2001"
-    },
-    {
-        "id": 4,
-        "title": "The Holiday",
-        "director": "Nancy Meyers",
-        "genre": "Romántica",
-        "year": "2006"
+        "year": "2001",
+        "actors": [
+            { "id": 1, "name": "Renée Zellweger" },
+            { "id": 2, "name": "Colin Firth" },
+            { "id": 3, "name": "Hugh Grant" }
+        ]
     },
     {
         "id": 5,
         "title": "Call me by your name",
         "director": "Luca Guadagnino",
         "genre": "Romántica",
-        "year": "2017"
+        "year": "2017",
+        "actors": [
+            { "id": 1, "name": "Timothée Chalamet" },
+            { "id": 2, "name": "Armie Hammer" },
+            { "id": 3, "name": "Michael Stuhlbarg" }
+        ]
     },
     {
         "id": 6,
         "title": "Come, reza, ama",
         "director": "Ryan Murphy",
         "genre": "Romántica",
-        "year": "2010"
+        "year": "2010",
+        "actors": [
+            { "id": 1, "name": "Julia Roberts" },
+            { "id": 2, "name": "Javier Bardem" },
+            { "id": 3, "name": "James Franco" }
+        ]
     },
     {
         "id": 7,
         "title": "Contratiempo",
         "director": "Oriol Paulo",
         "genre": "Thriller",
-        "year": "2017"
+        "year": "2017",
+        "actors": [
+            { "id": 1, "name": "Mario Casas" },
+            { "id": 2, "name": "Bárbara Lennie" },
+            { "id": 3, "name": "Ana Wagener" }
+        ]
     },
     {
         "id": 8,
         "title": "El Hoyo",
         "director": "Galder Gaztelu-Urrutia",
         "genre": "Thriller",
-        "year": "2020"
+        "year": "2020",
+        "actors": [
+            { "id": 1, "name": "Alexandra Masangkay" },
+            { "id": 2, "name": "Iván Massagué" },
+            { "id": 3, "name": "Zorion Eguileor" }
+        ]
     },
     {
         "id": 9,
         "title": "American Psycho",
         "director": "Mary Harron",
         "genre": "Thriller",
-        "year": "2000"
+        "year": "2000",
+        "actors": [
+            { "id": 1, "name": "Christian Bale" },
+            { "id": 2, "name": "Bret Easton Ellis" },
+            { "id": 3, "name": "Jared Leto" }
+        ]
     },
     {
         "id": 10,
         "title": "Hogar",
         "director": "David Pastor y Àlex Pastor",
         "genre": "Thriller",
-        "year": "2020"
+        "year": "2020",
+        "actors": [
+            { "id": 1, "name": "Mario Casas" },
+            { "id": 2, "name": "Javier Gutiérrez" },
+            { "id": 3, "name": "Vicky Luengo" }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Divergente",
+        "director": "Neil Burger",
+        "genre": "Acción",
+        "year": "2014"
+    },
+    {
+        "id": 12,
+        "title": "Divergente",
+        "director": "Neil Burger",
+        "genre": "Acción",
+        "year": "2014"
     }
 ]
