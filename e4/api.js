@@ -209,6 +209,7 @@ api.get("/api/films/:filmsId/actors", (request, response) => {
 
         if (film) {
             const actors = film.actors((actors) => actors === request.params.actors);
+            return actors;
         }
 
         response.status(200).send({
